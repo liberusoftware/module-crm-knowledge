@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Liberu\CRM\Knowledge\Http\Controllers;
 
-use App\Models\KnowledgeBaseArticle;
+
+use Illuminate\Routing\Controller;
+use Liberu\CRM\Knowledge\Models\KnowledgeBaseArticle;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 
